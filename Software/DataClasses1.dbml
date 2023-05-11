@@ -1,0 +1,19 @@
+﻿<?xml version="1.0" encoding="utf-8"?><Database Name="Software" Class="DataClasses1DataContext" xmlns="http://schemas.microsoft.com/linqtosql/dbml/2007">
+  <Connection Mode="AppSettings" ConnectionString="Data Source=LAPTOP-9K9VRTIG\TBD_CAZM;Initial Catalog=Software;Integrated Security=True" SettingsObjectName="Software.Properties.Settings" SettingsPropertyName="SoftwareConnectionString" Provider="System.Data.SqlClient" />
+  <Function Name="dbo.BasicMaths_Insert" Method="BasicMaths_Insert">
+    <Parameter Name="userName" Type="System.String" DbType="VarChar(15)" />
+    <Parameter Name="BMPoints" Parameter="bMPoints" Type="System.Int32" DbType="Int" />
+    <Return Type="System.Int32" />
+  </Function>
+  <Function Name="dbo.Memo_PointsInsert" Method="Memo_PointsInsert">
+    <Parameter Name="userName" Type="System.String" DbType="VarChar(15)" />
+    <Parameter Name="MMPoints" Parameter="mMPoints" Type="System.Int32" DbType="Int" />
+    <Return Type="System.Int32" />
+  </Function>
+  <Function Name="dbo.Puzzle_PointsInsert" Method="Puzzle_PointsInsert">
+    <Parameter Name="userName" Type="System.String" DbType="VarChar(15)" />
+    <Parameter Name="PZPoints" Parameter="pZPoints" Type="System.Int32" DbType="Int" />
+    <Parameter Name="PZTime" Parameter="pZTime" Type="System.String" DbType="VarChar(15)" />
+    <Return Type="System.Int32" />
+  </Function>
+</Database>
